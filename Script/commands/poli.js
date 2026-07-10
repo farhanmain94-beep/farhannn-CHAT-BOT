@@ -6,7 +6,7 @@ version: "1.0.",
 
 hasPermission: 0,
 
-credits: "𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤 𝐂𝐲𝐛𝐞𝐫",
+credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
 
 description: "generate image from pollination",
 
