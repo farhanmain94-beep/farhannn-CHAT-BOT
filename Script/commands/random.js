@@ -2,7 +2,7 @@ module.exports.config = {
  'name': "random",
  'version': "11.9.7",
  'hasPermission': 0,
- 'credits': "Shaon Ahmed",
+ 'credits': "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
  'description': "random love story video",
  'commandCategory': "video",
  'usages': "random",
