@@ -8,7 +8,7 @@ module.exports.config = {
   name: "quiz",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "Quiz with 30s timer",
   commandCategory: "Game",
   usages: "quiz",
