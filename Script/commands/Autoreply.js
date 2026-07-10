@@ -61,6 +61,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "umm": "এতো Umm কেনো জানু… কিছু বলবা? 😉",
     "hmm": "Hmmm কিসের হুমম জানু 🥵",
     "love": "Love করলে সরাসরি FARHAN বস কে বল জানু 😻🔥"
+     "kemon acho?": "হ্যাঁ রে প্রিও, বস ফারহান এর দোয়ায় ভালো আছি 😌💞",
   };
 
   if (!responses[msg]) return;
