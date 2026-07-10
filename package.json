@@ -1,7 +1,7 @@
 {
   "name": "shahadat-chat-bot",
   "version": "2.0.0",
-  "description": "Made By SHAHADAT SAHU",
+  "description": "Made By FARHAN ISLAM",
   "main": "Main.js",
   "engines": {
     "node": "20.x",
@@ -27,7 +27,7 @@
     "shahadat sahu",
     "shahadat chat bot"
   ],
-  "author": "SHAHADAT SAHU",
+  "author": "FArhan Islam",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues"
