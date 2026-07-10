@@ -6,7 +6,7 @@ module.exports.config = {
   name: "rip",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "Generate a RIP banner image using target Facebook UID via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,
