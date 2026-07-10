@@ -2,7 +2,7 @@ module.exports.config = {
     name: "top",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
     description: "Top 10 richest users",
     commandCategory: "economy",
     usages: "",
