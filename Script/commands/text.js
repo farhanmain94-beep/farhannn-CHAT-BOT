@@ -5,7 +5,7 @@ module.exports.config = {
   name: "text",
   version: "1.1.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "Send repeated text messages",
   commandCategory: "utility",
   usages: "[count] [text]",
