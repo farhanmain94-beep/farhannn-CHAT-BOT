@@ -44,8 +44,8 @@ module.exports.languages = {
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 const helpImages = [
    
-    "https://imgur.com/Cq60EbZ.jpeg",
-    "https://imgur.com/xnynwmR.jpeg"
+    "https://i.imgur.com/Cq60EbZ.jpeg",
+   "https://i.imgur.com/xnynwmR.jpeg"
 ];
 
 
@@ -79,7 +79,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "𝐅𝐚𝐫𝐡𝐚𝐧 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭" 
     );  
 
     downloadImages(files => {  
@@ -109,7 +109,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+           global.config.BOTNAME || "𝐅𝐚𝐫𝐡𝐚𝐧 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"
         );  
 
         downloadImages(files => {  
