@@ -5,7 +5,7 @@ module.exports.config = {
  name: "helpall",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "Farhan Islam",
  description: "Displays all available commands in one page",
  commandCategory: "system",
  usages: "[No args]",
@@ -36,10 +36,10 @@ ${allCommands.map(cmd => `║ ➔ ${cmd}`).join("\n")}
 
  
  const backgrounds = [
- "https://imgur.com/TCBDN5O.jpeg",
- "https://imgur.com/xnynwmR.jpeg",
- "https://imgur.com/mBF38ZM.png",
- "https://imgur.com/Cq60EbZ.jpeg"
+"https://i.imgur.com/TCBDN5O.jpeg",
+"https://i.imgur.com/xnynwmR.jpeg",
+"https://i.imgur.com/mBF38ZM.png",
+"https://i.imgur.com/Cq60EbZ.jpeg"
  ];
  const selectedBg = backgrounds[Math.floor(Math.random() * backgrounds.length)];
  const imgPath = __dirname + "/cache/helpallbg.jpg";
