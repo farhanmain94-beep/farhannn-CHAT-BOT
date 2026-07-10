@@ -31,7 +31,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
     "good night": "Sweet Dream babu… তবে আগে FARHAN বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
-    "farha": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
+    "farhan": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
     "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ FARHAN ☜\nFacebook: www.facebook.com/farhan.2006f32\nWhatsApp: +8801786281724",
     "admin": "He is FARHAN ISLAM তাকে সবাই Admin FARHAN হিসেবে চিনে😘☺️",
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
@@ -67,7 +67,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "bot": "জি, আমি ফারহানের Chat Bot। 🤖",
     "ping": "🏓 Pong!",
     "good afternoon": "Good Afternoon 🌤️",
-    "farhan": "জি, ফারহান বসের কী খবর জানতে চান? 😊"
+    "farhan": "জি, ফারহান বসের কী খবর জানতে চান? 😊",
     "online acho": "জি, আমি অনলাইনেই আছি। 🟢",
     "busy": "একটু ব্যস্ত আছি, তবুও বলো। 😄",
     "bot koi": "আমি তো এখানেই আছি। 😁",
