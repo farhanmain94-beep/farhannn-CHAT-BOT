@@ -5,7 +5,7 @@ module.exports.config = {
   name: "resend",
   version: "1.1.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "Auto resend removed messages",
   commandCategory: "general",
   cooldowns: 0,
