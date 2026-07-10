@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "uid",
 	version: "2.0.0",
 	hasPermssion: 0,
-	credits: "SHAHADAT SAHU",
+	credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
 	description: "Get UID (self, mention, or reply)",
 	commandCategory: "user",
 	usages: "uid [tag/reply/none]",
