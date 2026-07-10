@@ -6,7 +6,7 @@ module.exports.config = {
   name: "upt",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SA HU", //please don't change credit
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌", //please don't change credit
   description: "Monitoring for your Messenger robot 24 hour active",
   commandCategory: "system",
   usages: "[upt]",
