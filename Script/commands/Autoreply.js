@@ -8,7 +8,7 @@ module.exports.config = {
   name: "autoreplybot",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+ credits: "Farhan Islam",
   usePrefix: false,
   commandCategory: "Chat",
   cooldowns: 0
@@ -54,10 +54,10 @@ module.exports.handleEvent = async function ({ api, event }) {
     "kire ki koros": "তোমার কথা ভাবতে ছি জানু 😚",
     "ki koros": "বস FARHAN এর সাথে প্রেমে ব্যস্ত আছি 😏💘",
     "kire bot": "হ্যাঁ সব কেমন আছেন আপনার ওই খানে উম্মাহ 😘😽🙈",
-    "valo aso": "হ্যাঁ রে প্রিও, বস সাহু এর দোয়ায় ভালো আছি 😌💞",
+   "valo acho?": "হ্যাঁ রে প্রিও, বস ফারহান এর দোয়ায় ভালো আছি 😌💞",
     "pagol": "হুম পাগল, কিন্তু তোমারই পাগল 😏😂",
-    "breakup": "চিন্তা করিস না… সাহু বস তো আছেই তোকে নতুন জন দিয়া দিবে 😎🔥",
-    "tui ke": "আমি তোর বস সাহু এর ChatBot 😏",
+   "breakup": "চিন্তা করিস না… ফারহান বস তো আছেই তোকে নতুন জন দিয়া দিবে 😎🔥",
+ "tui ke": "আমি তোর বস ফারহান এর ChatBot 😏",
     "umm": "এতো Umm কেনো জানু… কিছু বলবা? 😉",
     "hmm": "Hmmm কিসের হুমম জানু 🥵",
     "love": "Love করলে সরাসরি FARHAN বস কে বল জানু 😻🔥"
