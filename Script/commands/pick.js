@@ -2,7 +2,7 @@ module.exports.config = {
   name: "pick",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Shaon Ahmed",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "Pinterest image search",
   commandCategory: "Media",
   usages: "pic <keyword> [amount]",
