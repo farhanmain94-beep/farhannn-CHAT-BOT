@@ -2,7 +2,7 @@ module.exports.config = {
   name: "bday",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "FARHAN",
   description: "Admin birthday",
   usePrefix: false,
   commandCategory: "bday",
@@ -34,7 +34,7 @@ module.exports.run = async ({ api, event }) => {
   const diffSeconds = Math.floor((diffMs / 1000) % 60);
 
   if (diffDays === 1) {
-    const tomorrowMessage = `👉 Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!
+    const tomorrowMessage = `👉 Admin FARHAN এর জন্মদিন আগামীকাল!
 অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল 😜
 
 উইশ করতে ভুলবে না কিন্তু... 🥰`;
@@ -43,24 +43,24 @@ module.exports.run = async ({ api, event }) => {
 
   if (diffDays === 0) {
     const happyBirthdayMessage = `╔═══ 🎉 HAPPY BIRTHDAY 🎉 ═══╗
-║ OUR BOSS - SHAHADAT SAHU 💖
+║ OUR BOSS - FARHAN 💖
 ╟──────────────────────
 ║ 🎂 আজ আমাদের Boss এর জন্মদিন!
 ║ 🥳 সবাই মন থেকে উইশ করো
 ║ ❤️ দোয়া ও ভালোবাসা জানাও
 ╟──────────────────────
 ║ 📘 Facebook :
-║ www.facebook.com/100044713412032
+║facebook.com/100024477144583
 ║ 💬 Messenger :
-║ m.me/100044713412032
+║ m.me/100024477144583
 ║ 📱 WhatsApp :
-║ https://wa.me/+8801882333052
+║ https://wa.me/+8801786281724
 ╚══════════════════════╝`;
     return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
   }
 
   const countdownMessage = `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin FARHAN ISLAM
 ║ জন্মদিন কাউন্টডাউন ❤️‍🔥
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
@@ -69,7 +69,7 @@ module.exports.run = async ({ api, event }) => {
 ║ ⏳ Seconds : ${diffSeconds}
 ╚════════════════════╝`;
 
-  const url = "https://graph.facebook.com/100044713412032/picture?height=720&width=720";
+  const url = "https://graph.facebook.com/100024477144583/picture?height=720&width=720";
 
   try {
     const response = await axios({
