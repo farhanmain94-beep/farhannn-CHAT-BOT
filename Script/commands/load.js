@@ -5,7 +5,7 @@ module.exports.config = {
   name: "load",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
+  credits: "FARHAN ISLAM",
   description: "Reload commands",
   commandCategory: "System",
   usages: "load [commandName]",
