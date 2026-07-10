@@ -2,7 +2,7 @@ module.exports.config = {
   name: "spam",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "",
   commandCategory: "spam",
   usages: "[msg] [amount]",
