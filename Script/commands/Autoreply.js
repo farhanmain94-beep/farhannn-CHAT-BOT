@@ -118,6 +118,6 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
   }
 };
 
-module.exports.run = async function ({ api, event }) {
-  return module.exports.handleEvent({ api, event });
+module.exports.run = async function () {
+  return;
 };
