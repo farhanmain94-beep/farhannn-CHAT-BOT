@@ -6,7 +6,7 @@ module.exports.config = {
   name: "pairing",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "𝐅𝐀𝐑𝐇𝐀𝐍 𝐈𝐒𝐋𝐀𝐌",
   description: "Pair sender with a random user from the group via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,
