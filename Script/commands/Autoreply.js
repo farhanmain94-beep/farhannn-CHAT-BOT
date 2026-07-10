@@ -8,7 +8,7 @@ module.exports.config = {
   name: "autoreplybot",
   version: "2.0.0",
   hasPermssion: 0,
- credits: "Farhan Islam",
+  credits: "SHAHADAT SAHU",
   usePrefix: false,
   commandCategory: "Chat",
   cooldowns: 0
@@ -21,85 +21,47 @@ module.exports.handleEvent = async function ({ api, event }) {
   const msg = body.toLowerCase().trim();
 
   const responses = {
-    "miss you": "অরেক বেডারে Miss না করে xan মেয়ে হলে বস FARHAN রে হাঙ্গা করো😶👻😘",
-    "miss u too": "হুম আমি ও তোমাকে Miss করি... কিন্তু FARHAN বস বেশি করে 😏💖",
+    "miss you": "অরেক বেডারে Miss না করে xan মেয়ে হলে বস সাহু রে হাঙ্গা করো😶👻😘",
+    "miss u too": "হুম আমি ও তোমাকে Miss করি... কিন্তু সাহু বস বেশি করে 😏💖",
     "kiss de": "কিস দিস না তোর মুখে দূর গন্ধ কয়দিন ধরে দাঁত ব্রাশ করিস নাই🤬",
     "👍": "সর এখান থেকে লাইকার আবাল..!🐸🤣👍⛏️",
     "hi": "এত হাই-হ্যালো কর ক্যান প্রিও..!😜🫵",
     "bc": "SAME TO YOU😊",
     "pro": "Khud k0o KYa LeGend SmJhTi Hai 😂",
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
-    "good night": "Sweet Dream babu… তবে আগে FARHAN বস কে GN বলে নিও 😏💤",
+    "good night": "Sweet Dream babu… তবে আগে সাহু বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
-    "farhan": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
-    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ FARHAN ☜\nFacebook: www.facebook.com/farhan.2006f32\nWhatsApp: +8801786281724",
-    "admin": "He is FARHAN ISLAM তাকে সবাই Admin FARHAN হিসেবে চিনে😘☺️",
+    "shahadat": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
+    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ SHAHADAT SAHU ☜\nFacebook: https://www.facebook.com/profile.php?id=100044713412032\nWhatsApp: +8801882333052",
+    "admin": "He is SHAHADAT SAHU তাকে সবাই Admin SAHU হিসেবে চিনে😘☺️",
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
     "chup": "তুই চুপ চুপ কর পাগল ছাগল",
-    "assalamualaikum": "Walaikumassalam❤️‍🩹",
+    "Assalamualaikum": "Walaikumassalam❤️‍🩹",
     "fork": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT.git",
     "kiss me": "তুমি পঁচা তোমাকে কিস দিবো না 🤭",
-    "thanks": "এতো ধন্যবাদ না দিয়ে আমার বস FARHAN রে তোর গার্লফ্রেন্ড টা দিয়ে দে..!🐸🥵",
-    "i love you": "মেয়ে হলে আমার বস FARHAN এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",
-    "love you": "ভালোবাসা নামক আবলামী করতে চাইলে Boss FARHAN এর ইনবক্সে গুতা দিন 😘",
+    "thanks": "এতো ধন্যবাদ না দিয়ে আমার বস সাহু রে তোর গার্লফ্রেন্ড টা দিয়ে দে..!🐸🥵",
+    "i love you": "মেয়ে হলে আমার বস সাহু এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",
+    "love you": "ভালোবাসা নামক আবলামী করতে চাইলে Boss সাহু এর ইনবক্সে গুতা দিন 😘",
     "by": "কিরে তুই কই যাস কোন মেয়ের সাথে চিপায় যাবি..!🌚🌶️",
-    "ami farhan": "হ্যা বস কেমন আছেন..?☺️",
+    "ami shahadat": "হ্যা বস কেমন আছেন..?☺️",
     "bot er baccha": "আমার বাচ্চা তো তোমার গার্লফ্রেন্ডের পেটে..!!🌚⛏️",
-    "tor nam ki": "MY NAME IS ─꯭─⃝‌‌FARHAN 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭💖",
+    "tor nam ki": "MY NAME IS ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭💖",
     "pic de": "এন থেকে সর দুরে গিয়া মর😒",
     "cudi": "এত চোদা চুদি করস কেনো..!🥱🌝🌚",
     "bal": "রাগ করে না সোনা পাখি 🥰",
     "heda": "এতো রাগ শরীরের জন্য ভালো না 🥰",
     "boda": "ভাই তুই এত হাসিস না..!🌚🤣",
     "kire ki koros": "তোমার কথা ভাবতে ছি জানু 😚",
-    "ki koros": "বস FARHAN এর সাথে প্রেমে ব্যস্ত আছি 😏💘",
+    "ki koros": "বস সাহু এর সাথে প্রেমে ব্যস্ত আছি 😏💘",
     "kire bot": "হ্যাঁ সব কেমন আছেন আপনার ওই খানে উম্মাহ 😘😽🙈",
-    "valo acho?": "হ্যাঁ রে প্রিও, বস ফারহান এর দোয়ায় ভালো আছি 😌💞",
+    "valo aso": "হ্যাঁ রে প্রিও, বস সাহু এর দোয়ায় ভালো আছি 😌💞",
     "pagol": "হুম পাগল, কিন্তু তোমারই পাগল 😏😂",
-    "breakup": "চিন্তা করিস না… ফারহান বস তো আছেই তোকে নতুন জন দিয়া দিবে 😎🔥",
-    "tui ke": "আমি তোর বস ফারহান এর ChatBot 😏",
+    "breakup": "চিন্তা করিস না… সাহু বস তো আছেই তোকে নতুন জন দিয়া দিবে 😎🔥",
+    "tui ke": "আমি তোর বস সাহু এর ChatBot 😏",
     "umm": "এতো Umm কেনো জানু… কিছু বলবা? 😉",
     "hmm": "Hmmm কিসের হুমম জানু 🥵",
-    "love": "Love করলে সরাসরি FARHAN বস কে বল জানু 😻🔥",
-    "kemon acho?": "হ্যাঁ রে প্রিও, বস ফারহান এর দোয়ায় ভালো আছি 😌💞",
-    "hello": "আসসালামু আলাইকুম! 😊 কি খবর?",
-    "bye": "আল্লাহ হাফেজ, আবার দেখা হবে! ❤️",
-    "bot": "জি, আমি ফারহানের Chat Bot। 🤖",
-    "ping": "🏓 Pong!",
-    "good afternoon": "Good Afternoon 🌤️",
-    "online acho": "জি, আমি অনলাইনেই আছি। 🟢",
-    "busy": "একটু ব্যস্ত আছি, তবুও বলো। 😄",
-    "bot koi": "আমি তো এখানেই আছি। 😁",
-    "bokachoda": "ভদ্রভাবে বললে আমিও ভদ্র থাকি। 😏",
-    "tor ki": "আমার যা, তোর তাতে কী? 🌚",
-    "gf nai": "Skill issue নাকি? 😹",
-    "tui ja": "ঠিক আছে, দরকার হলে আবার আসিস। 👋",
-    
+    "love": "Love করলে সরাসরি সাহু বস কে বল জানু 😻🔥"
   };
-
-  const stories = [
-"📖 একদিন এক গরিব ছেলে অনেক কষ্ট করে পড়াশোনা করে বড় অফিসার হলো। 💖",
-"`💔 একটা ছেলে ও একটা মেয়ে দুজন দুজনকে খুব ভালোবাসত।
-
-দুর্ভাগ্যবশত মেয়েটি মারা যায়।
-
-ছেলেটি দিন-রাত শুধু কাঁদত।
-
-এক রাতে সে স্বপ্নে দেখল মেয়েটি স্বর্গে আরও অনেক মেয়ের সাথে আছে।
-
-সবার হাতে জ্বলন্ত মোমবাতি, কিন্তু তার প্রিয়তমার মোমবাতি নিভে আছে।
-
-ছেলেটি জিজ্ঞেস করল,
-"তোমার মোমবাতিটা জ্বলছে না কেন?"
-
-মেয়েটি বলল,
-"আমি যখনই মোমবাতিটা জ্বালাই, তোমার চোখের জল এটাকে নিভিয়ে দেয়। প্লিজ, তুমি আর কেঁদো না। ❤️"`
-];
-
-if (msg == "story") {
-  const randomStory = stories[Math.floor(Math.random() * stories.length)];
-  return api.sendMessage(randomStory, threadID, messageID);
-}
 
   if (!responses[msg]) return;
 
