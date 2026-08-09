@@ -69,6 +69,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "online": "জি, আমি অনলাইনেই আছি। 🟢",
     "busy": "একটু ব্যস্ত আছি, তবুও বলো। 😊",
     "bot": "জি, আমি ফারহানের ChatBot। 🤖",
+    "I love u": "ওলেলে, আমার বাবুটা কাকে ভালোবাসে!",
     "ping": "🏓 Pong!",
     "crush": "Crush-কে বলার সাহস থাকলে আমায় বলার দরকার হতো না। 😆",
     "single": "Single আছি, শান্তিতে আছি। 😌",
