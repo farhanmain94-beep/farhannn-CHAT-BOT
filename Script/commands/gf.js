@@ -68,7 +68,7 @@ module.exports.run = async function ({ event, api }) {
 
   } catch (e) {
     return api.sendMessage(
-      "GF API Error | SAHU-API unreachable",
+      "GF API Error | Farhan-API unreachable",
       threadID,
       messageID
     );
