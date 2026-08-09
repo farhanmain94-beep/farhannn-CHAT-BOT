@@ -84,6 +84,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "good bot": "ধন্যবাদ! তোমাদের জন্যই আছি। ❤️",
     "kire": "বল ভাই, কী খবর? 😎",
     "ki khobor": "আলহামদুলিল্লাহ ভালো। তুমি কেমন আছো? 😊",
+    "kake valobaso": "Mahisha ke...",
     "story": "📖 গল্প শুনতে চাইলে একটু অপেক্ষা করো...",
     "joke": "😂 হাসিখুশি থাকো, জীবন সুন্দর!",
     "hey": "বল বন্ধু, কী খবর? 😄"
